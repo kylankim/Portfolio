@@ -1,0 +1,26 @@
+REST API interface
+Titan - Instrumentalizing a notebook with Titan is as easy 
+1. HTTP method for the service
+2. arbitraray name for the end point
+
+
+Web scrapping
+1. API - direct access to the data
+- dedicated URLs that provide this data in a pure form
+
+Steps of using API
+1. Understanding - Inspect API documentation page
+2. HTTP request from API
+- response = requests.get('api url').text
+3. Create python dictionary
+- response_info = json.loads(response)
+4. Built-in JSON decoder in request lib
+- requests.get('api url').json()
+5. Parsiang the dictionary
+- Data cleaning process
+6. Create Pandas DF
+- country_df = pd.DataFrame(data = data, columns=['A', 'B'])
+
+Reference
+1. https://towardsdatascience.com/json-and-apis-with-python-fba329ef6ef0
+2. https://www.coingecko.com/en/api

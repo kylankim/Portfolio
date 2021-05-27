@@ -1,0 +1,91 @@
+Reference
+1. https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/
+- Overall AWS creation
+
+2. https://aws.amazon.com/premiumsupport/features
+- AWS plans and pricing
+
+3. https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/?e=gs2020&p=fullstack&p=gsrc&c=lp_fsd
+- Introduction to basic web application tutorial
+
+4. https://aws.amazon.com/amplify/hosting/
+- AWS Amplify
+
+5. https://us-east-2.console.aws.amazon.com/amplify/home?region=us-east-2#/d3p12965wx9xy
+    - AWS Amplify concole
+
+6. https://us-east-2.console.aws.amazon.com/lambda/home?region=us-east-2#/functions
+    - AWS lambda console
+
+7. 
+
+
+AWS Amplify console
+1. a fully managed service for deploying and hosting static web applications 
+2. static web content - HTML, CSS, JavaScript, images and other files
+
+Dynamic functionality
+1. AWS Lambda and Amazon API Gateway to call remote RESTful APIs.
+
+REST
+1. Representational State Transfer
+2. architectural pattern for creating web services
+3. API stands for application program interface.
+
+Server
+1. Software or hardware device that accepts and responds to requests made over a network
+
+Static website
+1. fixed content
+2. most basic type of website and are the easiest to create
+
+Web Hosting
+1. technologies/services needed for your the website to be viewed in the Internet.
+
+Steps for AWS
+
+1. AWS Amplify to create static website and management
+2. Create index.html for website structure and zip
+3. index.html zip file to upload in the Amplify
+    - Test Web app
+4. AWS lambda service
+5. Amazon API Gateway
+6. Create API and deploy APIs
+    - Save url of APIs
+    - https://qsbcj8fd33.execute-api.us-east-1.amazonaws.com/dev
+7. Create a table to persist data using Amazon Dynamo DB
+    - Create DB and save ARS
+    - arn:aws:dynamodb:us-east-1:267896743968:table/HelloWorldDatabase
+
+8. Add permission to functions
+    - Permissions for functions to use data in the DB
+    - AWS identity and IAM to setup permissions
+
+
+AWS lambda service
+1. compute service that allows us to create serverless functions
+2. serverless functions are triggered based on a specific event you will define in the code.
+3. Lambda Trigger
+    - The type of event that will make a Lambda (serverless) function run
+
+Amazon API Gateway
+1. reate a RESTful API that will allow us to make calls to our Lambda function from a web client
+2. middle layer between the HTML client btw Amplify and serverless backend 
+3. End point of API
+    - Edge optimized endpoints is best for geographically distributed clients
+    - Regional endpoints are typically used for APIs that are accessed primarily from within the same AWS Region.
+
+Dynamo DB
+1. DynamoDB is a key-value database service, so we do not need to create a schema for our data
+2. https://console.aws.amazon.com/dynamodb/home?region=us-east-1
+    - Amazon DB console
+3. Location setting and the primary key is important
+4. Automatically update item in the DB after setting up the permission for functions
+
+
+IAM
+1. AWS Identity and Access Management service
+2. securely give our services the required permissions to interact with each other.
+
+AWS cloud practitioner cheet sheet
+1. https://www.awsboy.com/aws-cloud-practitioner-cheat-sheets-cloud-concepts/
