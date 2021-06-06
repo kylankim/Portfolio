@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Extend 9-1</title>
+
+<style type="text/css">
+<!--
+.center {
+	text-align:center;
+    }
+	
+.titleline {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	text-align: center;
+	font-weight: bold;
+}
+
+.blockcenter {
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+table {
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 3px;
+}
+
+.colHead {
+    font-size: 12 pt;
+	font-family: Arial, Helvetica, MS San Serif;
+	font-weight: bold;
+}
+
+.footertext {
+	font-size: 8pt;
+	color: #604020;
+}
+-->
+</style>
+</head>
+<body>
+<p class="center"><img src="extend9-1banner.jpg" alt="Denver Opera Banner" width="696" height="120"></p>
+<p class="center"><img src="hrimg-opera.jpg" alt="red divider" width="800" height="4" /></p>
+
+<p class="center"><img src="hrimg-opera.jpg" alt="red divider" width="800" height="4" class="center" /></p>
+<p class="center"><span class="titleline"> Come for the atmosphere... Stay for the music!</span></p>
+<div class="blockcenter">
+<p>Welcome to the spectacular Denver Opera House. The Denver Opera House was built in 1882 and is a  Western cultural institution. Our interior takes you back in time, as you enter our newly restored Grand Lobby with many of its original Victorian features. Try to imagine the patrons of the late 19th century streaming into the theater, eager to hear the music and words of Puccini, Rossini, Mozart, Bizet, and Verdi. Come visit Denver's oldest icon of the arts and see a marvelous example of 19th-century Victorian architecture, featuring leather stenciling, an ornate pressed tin ceiling, and a beautiful proscenium stage.</p>
+<p>Besides a beautiful theater, the Denver Opera House has an art gallery, a gift shop, and the Art's Cafe.  Our art gallery presents eight to 10 exhibitions annually of well-known local, national, and international artists and artisans. After a visit to the art gallery, visit the gift shop, where one can purchase original artwork ranging from paintings, prints, and original hand-crafted pottery, glass, and jewelry. The Art's Cafe is open to the public and is a gathering place where musicians and performers enjoy a break between rehearsals, artists meet to discuss ideas, and friends gather just to relax.</p>
+</div>
+<p></p>
+<table>
+  <tr>
+    <th class="colHead">Art Gallery Hours</th>
+    <th class="colHead">Gift Shop Hours</th>
+    <th class="colHead">Art's Cafe Hours</th>
+  </tr>
+  <tr>
+    <td>Monday through Saturday <br />
+      10:00 a.m. to 6:00 p.m. <br />
+      Sunday<br /> 
+      Noon to 5:00 p.m.
+    </td>
+    <td>Monday through Saturday <br />
+      11:00 a.m. to 6:30 p.m.<br />
+      Sunday<br />
+      Noon to 5:30 p.m.
+    </td>
+    <td>Sunday through Thursday <br />
+      10:00 a.m. to 8:00 p.m.<br />
+      Friday and Saturday<br />
+      11:00 a.m. to 11 p.m. 
+    </td>
+  </tr>
+</table>
+<p></p>
+
+</body>
+</html>

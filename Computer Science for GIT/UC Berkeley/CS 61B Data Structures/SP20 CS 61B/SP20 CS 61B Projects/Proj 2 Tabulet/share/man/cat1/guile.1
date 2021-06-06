@@ -1,0 +1,168 @@
+GUILE(1)                         GNU Guile 2.0                        GUILE(1)
+
+
+
+NNAAMMEE
+       guile - The GNU Project Extension Language
+
+SSYYNNOOPPSSIISS
+       gguuiillee  [--LL _D_I_R_E_C_T_O_R_Y] [--ll _F_I_L_E] [--ee _F_U_N_C_T_I_O_N] [\\] [--cc _E_X_P_R] [--ss _S_C_R_I_P_T]
+       [----] [_S_C_R_I_P_T [_A_R_G_s _f_o_r _S_C_R_I_P_T]]
+
+       Only the most useful options are listed here; see below for the remain-
+       der.
+
+DDEESSCCRRIIPPTTIIOONN
+       GNU  Guile is an implementation of the Scheme programming language.  It
+       extends the R5RS and R6RS language standards, providing additional fea-
+       tures necessary for real-world use.
+
+       Guile works well for interactive use, basic scripting, and extension of
+       larger applications, as well as for stand-alone Scheme application  de-
+       velopment.
+
+       The gguuiillee executable itself provides a stand-alone interactive compiler
+       and run-time for Scheme programs, both for interactive use and for exe-
+       cuting Scheme scripts or programs.
+
+       This manual page provides only brief instruction in invoking gguuiillee from
+       the command line.  Please consult the Guile info documentation for more
+       information, (type  iinnffoo ""((gguuiillee))IInnvvookkiinngg GGuuiillee"" at a command prompt).
+
+OOPPTTIIOONNSS
+       --LL _D_I_R_E_C_T_O_R_Y
+              Add _D_I_R_E_C_T_O_R_Y to the front of Guile's module load path.
+
+       --ll _F_I_L_E
+              Load Scheme source code from _F_I_L_E.
+
+       --ee _F_U_N_C_T_I_O_N
+              After  reading _S_C_R_I_P_T, apply _F_U_N_C_T_I_O_N to command-line arguments.
+              Note that _F_U_N_C_T_I_O_N is evaluated, so, for example, ((@@ ((mmyy--mmoodduullee))
+              mmyy--pprroocc)) is valid here.
+
+       \\      The  "meta  switch",  used  to  work  around  limitations  in #!
+              scripts.  See "The Meta Switch" in the texinfo documentation for
+              more details.
+
+       ----     Stop argument processing, and start gguuiillee in interactive mode.
+
+       --cc _E_X_P_R
+              Stop  argument processing, and evaluate _E_X_P_R as a Scheme expres-
+              sion.
+
+       --ss _S_C_R_I_P_T_-_F_I_L_E
+              Load Scheme source from _S_C_R_I_P_T_-_F_I_L_E and  execute  as  a  script.
+              Note  that  in many cases it is not necessary to use --ss; one may
+              invoke gguuiillee simply as gguuiillee _S_C_R_I_P_T_-_F_I_L_E _A_R_G_._._.
+
+       --ddss    Carry out --ss _S_C_R_I_P_T at this point in the option sequence.   Note
+              that this argument must be used in conjunction with --ss.
+
+       ----ddeebbuugg
+              Start  gguuiillee with the debugging VM.  By default, debugging is on
+              when gguuiillee is invoked interactively; it is off otherwise.
+
+       ----nnoo--ddeebbuugg
+              Start gguuiillee without the debugging VM, even if gguuiillee is being run
+              interactively.
+
+       ----aauuttoo--ccoommppiillee
+              Compile source files automatically (default behavior).
+
+       ----nnoo--aauuttooccoommppiillee
+              Disable automatic source file compilation.
+
+       ----lliisstteenn[=_P]
+              Listen on a port or socket for remote REPL connections.  See the
+              manual for more details.
+
+       ----uussee--ssrrffii=_N_,_M...
+              Load SRFI extensions _N, _M, etc.  For example,
+               ----uussee--ssrrffii=_8_,_1_3.
+
+       --xx _E_X_T_E_N_S_I_O_N
+              Add _E_X_T_E_N_S_I_O_N to the gguuiillee load extension list.
+
+       --hh, ----hheellpp
+              Describe command-line options and exit.
+
+       --vv, ----vveerrssiioonn
+              Display guile version and exit.
+
+       --qq     In interactive mode, suppress loading the user's  initialization
+              file, _~_/_._g_u_i_l_e_.
+
+EENNVVIIRROONNMMEENNTT
+       GGUUIILLEE__LLOOAADD__PPAATTHH
+              If $GGUUIILLEE__LLOOAADD__PPAATTHH is set before gguuiillee is started, its value is
+              used to augment the path to search for Scheme files  when  load-
+              ing.   It should be a colon-separated list of directories, which
+              will be prefixed to the default %%llooaadd--ppaatthh..
+
+       GGUUIILLEE__LLOOAADD__CCOOMMPPIILLEEDD__PPAATTHH
+              If $GGUUIILLEE__LLOOAADD__CCOOMMPPIILLEEDD__PPAATTHH is set before gguuiillee is started, its
+              value  is used to augment the path to search for compiled Scheme
+              files (.go files) when loading.  It should be a  colon-separated
+              list  of  directories,  which  will  be  prefixed to the default
+              %%llooaadd--ccoommppiilleedd--ppaatthh..
+
+FFIILLEESS
+       _~_/_._g_u_i_l_e
+              A Guile script that is executed before any other processing  oc-
+              curs.  For example, the following _._g_u_i_l_e activates guile's read-
+              line interface:
+
+                ((uussee--mmoodduulleess ((iiccee--99 rreeaaddlliinnee))))
+                ((aaccttiivvaattee--rreeaaddlliinnee))
+
+SSEEEE AALLSSOO
+       The full documentation for Guile is maintained as a Texinfo manual.  If
+       the  iinnffoo  and  gguuiillee programs are properly installed at your site, the
+       command
+
+              iinnffoo gguuiillee
+
+       should give you access to the complete manual.
+
+       http://www.schemers.org provides a general introduction to  the  Scheme
+       language.
+
+RREEPPOORRTTIINNGG BBUUGGSS
+       There  is  a  mailing list, bug-guile@gnu.org, for reporting Guile bugs
+       and fixes.  But before reporting something as a bug, please try  to  be
+       sure  that  it  really is a bug, not a misunderstanding or a deliberate
+       feature.  We ask you to read the  section  ``Reporting  Bugs''  in  the
+       Guile  reference  manual  (or Info system) for hints on how and when to
+       report bugs.  Also, include the version number of  the  Guile  you  are
+       running  in  every  bug report that you send in.  Bugs tend actually to
+       get fixed if they can be isolated, so it is in your interest to  report
+       them in such a way that they can be easily reproduced.
+
+CCOOPPYYIINNGG
+       Copyright (C) 2010, 2011 Free Software Foundation, Inc.
+
+       Permission  is  granted  to make and distribute verbatim copies of this
+       document provided the copyright notice and this permission  notice  are
+       preserved on all copies.
+
+       Permission  is granted to copy and distribute modified versions of this
+       document under the conditions for verbatim copying, provided  that  the
+       entire  resulting derived work is distributed under the terms of a per-
+       mission notice identical to this one.
+
+       Permission is granted to copy and distribute translations of this docu-
+       ment  into  another  language,  under the above conditions for modified
+       versions, except that this permission notice may be stated in a  trans-
+       lation approved by the Free Software Foundation.
+
+AAUUTTHHOORRSS
+       Robert  Merkel  <rgmerk@mira.net>  wrote  this  manpage.   Rob Browning
+       <rlb@cs.utexas.edu> has added to it.
+
+       gguuiillee is GNU software.  Guile is originally based  on  Aubrey  Jaffer's
+       SCM interpreter, and is the work of many individuals.
+
+
+
+GNU                               2011-03-04                          GUILE(1)

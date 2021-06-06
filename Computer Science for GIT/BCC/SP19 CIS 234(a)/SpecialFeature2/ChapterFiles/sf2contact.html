@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta charset="utf-8" />
+<title>SF2 Contact</title>
+
+<link rel="stylesheet" type="text/css" href="sf2styles.css" />
+
+</head>
+
+<body>
+
+<form method="post" action="mailto:carolinedance@isp.com">
+
+<p class="largetext">Dance Lesson Contact Request</p>
+
+<p>First name: 
+<input name="first" type="text" size="10" maxlength="10" />
+Last name: <input name="last" type="text" size="15" maxlength="15" />
+<br />Address: <input name="address" type="text" size="35" maxlength="35" />
+City: <input name="city" type="text" size="15" maxlength="15" />
+State: <input name="state" type="text" size="2" maxlength="2" />
+Zip: <input name="zip" type="text" size="10" maxlength="10" />
+<br />Phone number: <input name="phone" type="text" size="15" maxlength="15" /></p>
+
+<hr />
+
+<p>Has your child taken dance lessons before?
+	<input name="taken" type="radio" value="yes" />Yes 
+	<input name="taken" type="radio" value="no" />No</p>
+
+<p>How old is your child? 
+	<select name="age">
+		<option>4-6 years old</option>
+		<option>7-10 years old</option>
+		<option>11-14 years old</option>
+		<option>15-18 years old</option>
+	</select></p>
+
+<p>Would you like to have Caroline contact you about lessons?
+	<input name="call" type="radio" value="yes" />Yes 
+	<input name="call" type="radio" value="no" />No</p>
+
+<p><input type="submit" value="Submit" />
+<input type="reset" value="Reset" /></p>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+Svc Date	Groomer	Pet	Phone	Location	Service
+10/18/2019	Chu	Roxy	214-555-4978	DTN	Full
+10/18/2019	Simpson	Snowball	214-555-6497	MOB	Bath & Brush
+10/18/2019	Williamton	Cocoa	469-555-8400	DTN	Shed Treatment
+10/18/2019	Kowalczyk	Tex	972-555-7026	PUDO	Full
+10/19/2019	Chu	Shadow	972-555-4930	DTN	Bath & Brush
+10/19/2019	Kowalczyk	Tiny	972-555-4799	PUDO	Bath & Brush
+10/19/2019	Singer	Bo	214-555-8882	PUDO	Full
+10/19/2019	Ortiz	Jesse	214-555-6557	DTN	Shed Treatment
+10/19/2019	Aarons	Jack	972-555-8731	STH	Bath & Brush
+10/20/2019	Johnson	Spuds	972-555-6320	MOB	Full
+10/20/2019	Patrick	Sandy	214-555-1344	STH	Shed Treatment
+10/20/2019	Aarons	Lu Lu	469-555-7147	STH	Full
+10/21/2019	Ortiz	Cocoa	469-555-8400	DTN	Bath & Brush
+10/21/2019	Waters	Jack	972-555-8731	STH	Shed Treatment

@@ -1,0 +1,30 @@
+    private void secondSetting(Machine M) {
+        char[] settings = _secondSetting.toCharArray();
+        Rotor[] rotors = M.getRotors();
+        for (int i = 1; i < M.numRotors(); i++) {
+            String tmp = rotors[i].alphabet().getChars();
+            String alp = tmp.substring(_alphabet.toInt(settings[i-1]), _alphabet.size());
+            if (alp.length() != _alphabet.size()) {
+                alp += tmp.substring(0, _alphabet.toInt(settings[i-1]));
+            }
+            rotors[i].permutation().set_alphabet(new Alphabet(alp));
+        }
+
+        for (int i = 0; i < rotors.length - 1; i++) {
+            if (_alphabet.getCharList().contains(settings[i])) {
+                int settin = rotors[i + 1].setting();
+                rotors[i + 1].set(settin + _alphabet.toInt(settings[i]));
+            }
+        }
+
+//                if (rotors[i + 1].rotates()) {
+//                    char[] notch = rotors[i + 1].getNotches();
+//                    for (int j = 0; j < notch.length; j++) {
+//                        int tmp2 = _alphabet.toInt(notch[j]) - _alphabet.toInt(settings[i]);
+//                        notch[j] = _alphabet.toChar(rotors[i].permutation().wrap(tmp2));
+//                    }
+//                    rotors[i + 1].setNotches(notch);
+//                }
+//            }
+//        }
+    }

@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author yooji
+ *
+ */
+module Example {
+}

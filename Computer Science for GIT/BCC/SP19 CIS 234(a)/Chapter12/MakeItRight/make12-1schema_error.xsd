@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ 
+<xs:annotation>
+  <xs:documentation>
+     This XSD describes the data structure of Stems Flowers. 
+  </xs:documentation>
+</xs:annotation>  
+
+   <xs:element name="catalog">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="plant" type="childType" minOccurs="1" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:complexType name="childType">
+      <xs:group ref="childElements" />
+   </xs:complexType>
+
+   <xs:group name="childElements">
+      <xs:sequence>
+        <xs:element name="common" type="xs:string" />
+        <xs:element name="botanical" type="xs:string" />
+		<xs:element name="duration" type="xs:string" />
+        <xs:element name="light" type="xs:string" />
+        <xs:element name="price" type="xs:decimal" />
+		<xs:element name="availability" type="xs:date" />
+      </xs:sequence>
+   </xs:group>
+  
+</xs:schema>

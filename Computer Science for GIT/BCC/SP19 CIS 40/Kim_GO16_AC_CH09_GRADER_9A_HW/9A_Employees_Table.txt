@@ -1,0 +1,37 @@
+Last Name	First Name	Position/Department	Address	City	State	Postal Code	Phone
+Garrett	Phillip	President	6044 Adena Drive	St. Louis	MO	63011	314-555-0122
+Thomas	Jeanine	Finance Manager	8973 Carson Street	St. Louis	MO	63043	314-555-0199
+Burton	Gregory	Accessories Sales Manager	3506 Windgap Drive	St. Louis	MO	63141	314-555-0190
+Pine	Jessie	Auto Sales Manager	6613 Thayer Boulevard	Ballwin	MO	63011	314-555-0168
+Burris	Debra	Advertising Manager	10 Lafayette Court	St. Charles	MO	63303	636-555-0005
+King	Emily	Receptionist	1423 Riverview	St. Louis	MO	63103	314-555-6278
+Jenkins	Harris	Finance	2370 Litchfield Road	St. Louis	MO	63141	314-555-0170
+Smythe	Jenna	Finance	9729 Harrisburg Road	St. Charles	MO	63303	636-555-0105
+Flannery	Patrick	Finance	2485 Berry Drive	O¡¯Fallon	MO	63366	636-555-0184
+Perez	Maria	Finance	9704 Dubois Street	St. Charles	MO	63303	636-555-0151
+Pierce	Aidan	Accessories	3272 Sutherland Road	St. Louis	MO	63011	314-555-0115
+Milton	Lawrence	Accessories	7585 Tabor Drive	Wentzville	MO	63385	314-555-0148
+Minnelli	Angelo	Accessories	1016 Oberon Avenue	St. Peters	MO	63376	636-555-0107
+Kinamore	Cathy	Accessories	9051 Morley Drive	St. Charles	MO	63301	636-555-0135
+Tobias	Adrienne	Accessories	6960 Pennsylvania Avenue	St. Louis	MO	63141	314-555-0183
+Jemison	Greg	Accessories	1553 Haas Drive	St. Peters	MO	63376	636-555-0136
+Brookes	John	Accessories	2619 Sherwood Drive	St. Charles	MO	63301	636-555-0179
+Meeks	Sharice	Accessories	7583 Vinton Drive	St. Louis	MO	63011	314-555-0159
+Hale	Deanna	Auto Sales	9643 Weller Road	St. Louis	MO	63011	314-555-0187
+Kabir	Lakshmi	Auto Sales	1866 Radcliffe Boulevard	O¡¯Fallon	MO	63366	636-555-0152
+Yakir	Albert	Auto Sales	7774 Saginaw Street	St. Louis	MO	63146	314-555-0141
+Wilhelm	Tom	Auto Sales	7366 Middletown Drive	St. Peters	MO	63376	636-555-0195
+Carter	William	Auto Sales	2052 Isoline Drive	St. Charles	MO	63301	636-555-0146
+Wilson	Tony	Auto Sales	3626 Faulkner Road	St. Louis	MO	63011	314-555-0144
+Donaldson	Madeline	Auto Sales	7332 Glasgow Avenue	Wentzville	MO	63385	636-555-0137
+Wilcox	Ethan	Auto Sales	9623 Allendale Street	St. Louis	MO	63141	314-555-0192
+Edwards	Ben	Auto Sales	9797 Bergman Street	St. Charles	MO	63301	636-555-0198
+Jiang	Li Na	Auto Sales	2398 Citadel Circle	O¡¯Fallon	MO	63366	636-555-0109
+Brouwer	Abby	Auto Sales	1277 Converse Drive	St. Louis	MO	63146	314-555-0127
+Gac	Jazmin	Auto Sales	2473 Earl Street	St. Louis	MO	63043	314-555-0140
+Shah	Ajay	Auto Sales	8140 Hoover Drive	St. Peters	MO	08102	856-555-0119
+Daley	Scott	Service	1328 Nokomis Road	St. Louis	MO	63011	314-555-0164
+Falk	Sebastian	Service	6242 Rockyhill Road	Lansdowne	MO	19050	636-555-0104
+Kowalski	June	Service	5380 Powell Street	St. Charles	MO	19003	636-555-0180
+Bristow	Adam	Service	2253 Liberty Drive	St. Louis	MO	63011	314-555-0110
+
