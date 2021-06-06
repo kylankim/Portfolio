@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>Lab10-1</title>
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #990000;
+	font-weight: bold;
+}
+
+.style2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #0000FE;
+	font-size: 14pt;
+}
+
+.center-div {
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.header-text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.center-items {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.left-align {
+	text-align: left;
+}
+
+#footer {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	font-weight:bold;
+	color: #33C;
+	text-align:center;
+}
+
+-->
+</style>
+</head>
+<body>
+<div class="center-div">
+  <p class="center-items"><img src="lab10-1banner.jpg" alt="tri star logo" width="750" height="120"></p>
+</div>
+<div class="center-div">
+  <p class="center-items"><span class="style2">Danyi's Donuts Online Ordering System</span></p>
+  <form name="donutOrder" class="center-div" id="donutOrder">
+    <table class="center-div">
+        <tr>
+          <td class="right-align">
+              <span class="style1">*</span>Types of Donuts:
+          </td>
+          <td>
+              <select name="donutType">
+                <option>Select the Type of Donut</option>
+                <option value=".19">Glazed</option>
+                <option value=".23">Chocolate</option>
+                <option value=".24">Jelly Filled</option>
+                <option value=".21">Strawberry Sprinkle</option>
+                <option value=".18">Danyi Special</option>
+              </select>
+        </td>
+      </tr>
+      <tr>
+        <td class="right-align">
+        <span class="style1">*</span>Enter the number of donuts: </td>
+        <td><input type="text" name="count" id="count"></td>
+       </tr>
+        <tr>
+          <td class="right-align">
+		    <input type="button" value="Calculate">
+          </td>
+          <td>
+            <input type="reset">
+          </td>
+        </tr>
+         <tr>
+           <td class="right-align"><span class="style1">*</span>Cost of donuts: </td>
+           <td><input type="text" name="donutCost" value=" " size="9"></td>
+         </tr>
+    </table>
+</form>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>make11-1</title>
+<script type="text/javascript">
+<!--Hide from old browsers
+var leftPX=0
+function floatImage() {
+   leftPX=10
+   if (leftPX>950) leftPX=5
+   document.getElementById('floatImg').style.pixelLeft=leftPX
+   floater=setTimeout("floatImage()",100)
+}
+
+function stopFloat() {
+   clearTimeout(floatImg)
+   }
+
+function restartFloat() {
+   setTimeout("floatImage()",100)
+}
+
+function conference() {
+  window.open("make11-1notice.html", "conference", "width=525,height=365")
+}
+
+var showClouds=new Array("make11-1alto_cumulus.jpg","make11-1cirrosstratus.jpg","make11-1cumulonimbus_anvil.jpg","make11-1cumulonimbus.jpg","make11-1cumulus.jpg","make11-1dense_cirrus.jpg")
+
+var slideCntr=showClouds.length+1
+function cloudSlideShow() {
+   slideCntr+=1
+   if (slideCntr==showClouds.length) slideCntr=0
+   document.getElementById('cloudPics').src = showClouds[slideCntr]
+   setTimeout("cloudSlideShow()",2500)
+}
+
+//-->
+</script>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	color: #006600;
+}
+
+.style2 {
+	font-weight: bold;
+	color: navy;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12pt;
+}
+.style3 {
+	font-size: 12pt; color: #333366; font-style: italic; font-family: arial, helvetica, sans-serif
+}
+
+#floatImg {
+	position: absolute;
+    top: 420px; 
+	left: 5px;
+}
+  
+#cloudPics {
+	float: right;
+	margin: 0 15px 15px 0; 
+}
+
+.div-body {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+-->
+</style>
+</head>
+<body onLoad="cloudSlideShow(); floatingImage();">
+<p style="text-align:center"><img src="make11-1banner.jpg" id="banner" alt="banner" /></p>
+
+<div class="div-body">
+<p><img src="make11-1alto_cumulus.jpg" id="cloudPics" alt="cloud slide show" />Dr. Mary Hackett is our resident expert on weather. With a Ph.D. in meteorology, Dr. Hackett and her staff track the weather systems that impact your life 24 hours a day. </p>
+<p>Learn your cloud formations.</p>
+<ol>
+  <li>Alto Cumulus</li>
+  <li>Cirrostratus</li>
+  <li>Cumulonimbus with an anvil</li>
+  <li>Cumulonimbus without an anvil</li>
+  <li>Cumulus</li>
+  <li>Dense Cirrus</li>
+</ol>      
+</div>
+<div id="floatImg">
+  <img src="make11-1cloudlightning.gif" alt="scrolling cloud" style="cursor:pointer;" onMouseOver="stopFloat()" onMouseOut="restartFloat()" /></div> 
+</body>
+</html>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="gjdb">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/jaba lib/gjdb.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jaba lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jaba lib/jpt.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jaba lib/junit-4.12.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jaba lib/tools.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jaba lib/ucb-checkstyle.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jaba lib/ucb-f2007.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jaba lib/ucb.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/jaba lib/tools.jar!/" />
+    </SOURCES>
+  </library>
+</component>

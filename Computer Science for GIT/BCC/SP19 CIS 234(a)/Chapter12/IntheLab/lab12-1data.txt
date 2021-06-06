@@ -1,0 +1,10 @@
+Asset-item (asset_id, asset_description, asset_location, asset_date_acquired, asset_date_sold, asset_purchase_price, asset_salvage_value, asset_depreciation_life)
+
+SS156, Rockwell Lathe 11 X 36, Gary, IN, 1988-06-03, 2008-12-27, 7500, 1000, 20
+KK910, 1000 CFM Mobile Air Compression, Michigan City, IN, 1997-04-15, 2014-03-09, 32955, 5000, 20
+DD678, Panel Van, Gary, IN, 2002-08-07, 2014-07-21, 23780, 3000, 10
+DD711, Automobile, Portage, IN, 2005-09-05, 2013-05-30, 19200, 2000, 8
+DD977, Extended Crew Cab Pickup, Chesterton, IN, 2002-11-11, 2012-12-01, 25890, 3000, 10
+TT850, Computer, Server, Michigan City, IN, 2004-01-06, 2009-05-09, 7900, 0, 5
+TW300, Campact Loader, Michigan City, IN, 2007-10-28, 2014-07-30, 23900, 5000, 7
+CJ420, Electric Fork Lift, Michigan City, IN, 1997-07-15, 2013-03-17, 5490, 500, 10

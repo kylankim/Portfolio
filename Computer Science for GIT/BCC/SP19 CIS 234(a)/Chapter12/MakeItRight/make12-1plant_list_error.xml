@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- File name: make12-1plant_list_error.xml -->
+
+<catalog>
+	<plant>
+		<common>Bloodroot</common>
+		<botanical>Sanguinaria canadensis</botanical>
+		<type>Perennial</type>
+		<light>Mostly Shady</light>
+		<price>2.44</price>
+		<availability>031514</availability>
+	</plant>
+	<plant>
+		<common>Columbine</common>
+		<botanical>Aquilegia canadensis</botanical>
+		<type>Perennial</type>
+		<light>Mostly Shady</light>
+		<price>9.37</price>
+		<availability>030614</availability>
+	</plant>
+	<plant>
+		<common>Marsh Marigold</common>
+		<botanical>Caltha palustris</botanical>
+		<type>Perennial</type>
+		<light>Mostly Sunny</light>
+		<price>6.81</price>
+		<availability>051714</availability>
+	</plant>
+	<plant>
+		<common>Cowslip</common>
+		<botanical>Primula veris<botanical>
+		<type>Perennial</type>
+		<light>Mostly Shady</light>
+		<price>9.90</price>
+		<availability>030614</availability>
+	</plant>
+	<plant>
+		<common>Dutchman's Breeches</common>
+		<botanical>Dicentra cucullaria</botanical>
+		<type>Perennial</type>
+		<light>Mostly Shady</light>
+		<price>6.44</price>
+		<availability>012014</availability>
+	</plant>
+	<plant>
+		<common>Canadian Wild Ginger</common>
+		<botanical>Asarum canadense</botanical>
+		<type>Perennial</type>
+		<light>Mostly Shady</light>
+		<price>9.03</price>
+		<availability>041814</availability>
+	</plant>
+	<plant>
+		<common>Roundlobe Hepatica</common>
+		<botanical>Hepatica americana</botanical>
+		<type>Perennial</type>
+		<light>Mostly Shady</light>
+		<price>4.45</price>
+		<availability>012614</availability>
+	</plant>
+	<plant>
+		<common>Liverleaf</common>
+		<botanical>Pyrola asarifolia</botanical>
+		<type>Perennial</type>
+		<light>Mostly Shady</light>
+		<price>3.14</price>
+		<availability>010214</availability>
+	</plant>
+	<plant>
+		<common>Jack-In-The-Pulpit</common>
+		<botanical>Arisaema triphyllum</botanical>
+		<type>Perennial</type>
+		<light>Mostly Shady</light>
+		<price>3.23</price>
+		<availability>020114</availability>
+	</plant>
+	<plant>
+		<common>Mayapple</common>
+		<botanical>Podophyllum peltatum</botanical>
+		<type>Perennial</type>
+		<light>Mostly Shady</light>
+		<price>2.98</price>
+		<availability>060514</availability>
+	</plant>
+	<plant>
+		<common>Phlox, Woodland</common>
+		<botanical>Phlox divaricata</botanical>
+		<type>3</type>
+		<light>Sun or Shade</light>
+		<price>2.80</price>
+		<availability>012214</availability>
+	</plant>
+	<plant>
+		<common>Wild Blue Phlox</common>
+		<botanical>Phlox divaricata</botanical>
+		<type>Perennial</type>
+		<light>Sun or Shade</light>
+		<price>5.59</price>
+		<availability>021614</availability>
+	</plant>
+	<plant>
+		<common>Virginia Springbeauty</common>
+		<botanical>Claytonia Virginica</botanical>
+		<type>Perennial</type>
+		<light>Mostly Shady</light>
+		<price>6.59</price>
+		<availability>020114</availability>
+	</plant>
+	<plant>
+		<common>White Trillium</common>
+		<botanical>Trillium grandiflorum</botanical>
+		<type>Perennial</type>
+		<light>Sun or Shade</light>
+		<price>3.90</price>
+		<availability>042914</availability>
+	</plant>
+	<plant>
+		<common>Giant White Wakerobin</common>
+		<botanical>Trillium albidum</botanical>
+		<type>5</type>
+		<light>Sun or Shade</light>
+		<price>3.20</price>
+		<availability>022114</availability>
+	</plant>
+	<plant>
+		<common>Dog-Tooth Violet</common>
+		<botanical>Erythronium americanum</botanical>
+		<type>Perennial</type>
+		<light>Shade</light>
+		<price>9.04</price>
+		<availability>020114</availability>
+	</plant>
+	<plant>
+		<common>Trout Lily</common>
+		<botanical>Erythronium rostratum</botanical>
+		<type>Perennial</type>
+		<light>Shade</light>
+		<price>6.94</price>
+		<availability>032414</availability>
+	</plant>
+	<plant>
+		<common>Yellow Avalanche-lily</common>
+		<botanical>Erythronium grandiflorum</botanical>
+		<type>Perennial</type>
+		<light>Shade</light>
+		<price>9.58</price>
+		<availability>041314</availability>
+	</plant>
+	<plant>
+		<common>Greek thimbleweed</common>
+		<botanical>Anemone blanda</botanical>
+		<type>Perennial</type>
+		<light>Mostly Shady</light>
+		<price>8.86</price>
+		<availability>122614</availability>
+	</plant>
+	<plant>
+		<common>Bee Balm</common>
+		<botanical>Monarda</botanical>
+		<type>Perennial</type>
+		<light>Shade</light>
+		<price>4.59</price>
+		<availability>050314</availability>
+	</plant>
+	<plant>
+		<common>Scarlet beebalm</common>
+		<botanical>Monarda didyma</botanical>
+		<type>Perennial</type>
+		<light>Shade</light>
+		<price>7.16</price>
+		<availability>042714</availability>
+	</plant>
+	<plant>
+		<common>Black-Eyed Susan</common>
+		<botanical>Rudbeckia hirta</botanical>
+		<type>Annual</type>
+		<light>Sunny</light>
+		<price>9.80</price>
+		<availability>061814</availability>
+	</plant>
+	<plant>
+		<common>Buttercup</common>
+		<botanical>Ranunculus</botanical>
+		<type>Annual</type>
+		<light>Shade</light>
+		<price>2.57</price>
+		<availability>061014</availability>
+	</plant>
+	<plant>
+		<common>White water crowfoot</common>
+		<botanical>Ranunculus aquatilis</botanical>
+		<type>Perennial</type>
+		<light>Shade</light>
+		<price>9.34</price>
+		<availability>040314</availability>
+	</plant>
+	<plant>
+		<common>Butterfly Weed</common>
+		<botanical>Asclepias tuberosa</botanical>
+		<type>Annual</type>
+		<light>Sunny</light>
+		<price>2.78</price>
+		<availability>063014</availability>
+	</plant>
+	<plant>
+		<common>Cinquefoil</common>
+		<botanical>Potentilla</botanical>
+		<type>Annual</type>
+		<light>Shade</light>
+		<price>7.06</price>
+		<availability>052514</availability>
+	</plant>
+	<plant>
+		<common>Alyssum evening primrose</common>
+		<botanical>Oenothera</botanical>
+		<type>Annual</type>
+		<light>Sunny</light>
+		<price>6.56</price>
+		<availability>013014</availability>
+	</plant>
+	<plant>
+		<common>Gentian</common>
+		<botanical>Gentiana</botanical>
+		<type>Annual</type>
+		<light>Sun or Shade</light>
+		<price>7.81</price>
+		<availability>051814</availability>
+	</plant>
+	<plant>
+		<common>Charity</common>
+		<botanical>Polemonium caeruleum</botanical>
+		<type>Perennial</type>
+		<light>Shade</light>
+		<price>9.26</price>
+		<availability>022114</availability>
+	</plant>
+	<plant>
+		<common>tall Jacob's ladder</common>
+		<botanical>Polemonium acutiflorum</botanical>
+		<type>Perennial</type>
+		<light>Shade</light>
+		<price>4.36</price>
+		<availability>071414</availability>
+	</plant>
+	<plant>
+		<common>California Poppy</common>
+		<botanical>Eschscholzia californica</botanical>
+		<type>Annual</type>
+		<light>Sun</light>
+		<price>7.89</price>
+		<availability>032714</availability>
+	</plant>
+	<plant>
+		<common>Shooting Star</common>
+		<botanical>Dodecatheon</botanical>
+		<type>Annual</type>
+		<light>Mostly Shady</light>
+		<price>8.60</price>
+		<availability>051314</availability>
+	</plant>
+	<plant>
+		<common>Snakeroot</common>
+		<botanical>Cimicifuga</botanical>
+		<type>Annual</type>
+		<light>Shade</light>
+		<price>5.63</price>
+		<availability>071114</availability>
+	</plant>
+	<plant>
+		<common>Cardinal Flower</common>
+		<botanical>Lobelia cardinalis</botanical>
+		<type>Perennial</type>
+		<light>Shade</light>
+		<price>3.02</price>
+		<availability>022214</availability>
+	</plant>
+</catalog>

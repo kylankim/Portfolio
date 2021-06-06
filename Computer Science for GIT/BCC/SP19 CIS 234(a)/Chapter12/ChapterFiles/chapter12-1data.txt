@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- File name: chapter12-1products_solution.xml -->
+
+<products>
+   <item>
+      <item-id>A345</item-id>
+      <item-description>Stainless Steel Work Table 36X18</item-description>
+      <item-boh>4</item-boh>
+      <item-brand>ChefMaster</item-brand>
+      <item-cost>497.99</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>
+   <item>   
+      <item-id>R140</item-id>
+      <item-description>14-inch Roast Knife</item-description>
+      <item-boh>19</item-boh>
+      <item-brand>Russel</item-brand>
+      <item-cost>58.99</item-cost>
+      <item-vendor_ID>CH100</item-vendor_ID>
+   </item>   
+   <item>   
+      <item-id>S245</item-id>
+      <item-description>Salt and Pepper Shakers</item-description>
+      <item-boh>3</item-boh>
+      <item-brand>Du Pont</item-brand>
+      <item-cost>9.99</item-cost>
+      <item-vendor_ID>5TY90</item-vendor_ID>
+   </item>
+   <item>
+      <item-id>G321</item-id>
+      <item-description>Tomato Slicer</item-description>
+      <item-boh>5</item-boh>
+      <item-brand>Cooper</item-brand>
+      <item-cost>169.98</item-cost>
+      <item-vendor_ID>5T790</item-vendor_ID>
+   </item>
+   <item>
+      <item-id>W500</item-id>
+      <item-description>Conveyor Toaster</item-description>
+      <item-boh>11</item-boh>
+      <item-brand>ChefMaster</item-brand>
+      <item-cost>631.50</item-cost>
+      <item-vendor_ID>5TY90</item-vendor_ID>
+   </item>
+   <item>
+      <item-id>B211</item-id>
+      <item-description>Potato Slicer</item-description>
+      <item-boh>9</item-boh>
+      <item-brand>Cooper</item-brand>
+      <item-cost>59.98</item-cost>
+      <item-vendor_ID>5T790</item-vendor_ID>
+   </item>
+   <item>
+      <item-id>A410</item-id>
+      <item-description>Stainless Steel Work Table 48X24</item-description>
+      <item-boh>3</item-boh>
+      <item-brand>ChefMaster</item-brand>
+      <item-cost>521.50</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>
+   <item>
+      <item-id>A605</item-id>
+      <item-description>Stainless Dish Rack</item-description>
+      <item-boh>19</item-boh>
+      <item-brand>ChefMaster</item-brand>
+      <item-cost>21.95</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>
+   <item>
+      <item-id>G512</item-id>
+      <item-description>French Fry Slicer</item-description>
+      <item-boh>6</item-boh>
+      <item-brand>Cooper</item-brand>
+      <item-cost>69.98</item-cost>
+      <item-vendor_ID>5T790</item-vendor_ID>
+   </item>
+   <item>
+      <item-id>S351</item-id>
+      <item-description>Meat Grinder 3/4 HP</item-description>
+      <item-boh>2</item-boh>
+      <item-brand>ChefMaster</item-brand>
+      <item-cost>525.99</item-cost>
+      <item-vendor_ID>5TY90</item-vendor_ID>
+   </item>
+   <item>   
+      <item-id>C100</item-id>
+      <item-description>Plastic Flatware 350 pc</item-description>
+      <item-boh>23</item-boh>
+      <item-brand>Carter</item-brand>
+      <item-cost>29.99</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>
+   <item>   
+      <item-id>C200</item-id>
+      <item-description>Stainless Flatware 50 place</item-description>
+      <item-boh>11</item-boh>
+      <item-brand>Regal</item-brand>
+      <item-cost>210.99</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>
+   <item>   
+      <item-id>R310</item-id>
+      <item-description>Coffee Decanter-Regular</item-description>
+      <item-boh>22</item-boh>
+      <item-brand>Bunn</item-brand>
+      <item-cost>12.99</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>   
+   <item>
+      <item-id>D310</item-id>
+      <item-description>Coffee Decanter-Decaffeinated</item-description>
+      <item-boh>26</item-boh>
+      <item-brand>Bunn</item-brand>
+      <item-cost>12.99</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>      
+   <item>
+      <item-id>B100</item-id>
+      <item-description>Beverage Server-Thermal-32 oz</item-description>
+      <item-boh>20</item-boh>
+      <item-brand>Bunn</item-brand>
+      <item-cost>18.99</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>        
+   <item>   
+      <item-id>C500</item-id>
+      <item-description>Plastic Dinner plates-red</item-description>
+      <item-boh>140</item-boh>
+      <item-brand>Carter</item-brand>
+      <item-cost>3.99</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>
+   <item>   
+      <item-id>C510</item-id>
+      <item-description>Plastic serving baskets-White</item-description>
+      <item-boh>218</item-boh>
+      <item-brand>Cooper</item-brand>
+      <item-cost>3.99</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>
+   <item>   
+      <item-id>C511</item-id>
+      <item-description>Plastic serving baskets-Red</item-description>
+      <item-boh>218</item-boh>
+      <item-brand>Cooper</item-brand>
+      <item-cost>3.99</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>
+   <item>   
+      <item-id>C600</item-id>
+      <item-description>Ceramic Dinner plates-white</item-description>
+      <item-boh>287</item-boh>
+      <item-brand>Brown</item-brand>
+      <item-cost>8.99</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>
+   <item>   
+      <item-id>C610</item-id>
+      <item-description>Ceramic Dinner plates-design</item-description>
+      <item-boh>311</item-boh>
+      <item-brand>Brown</item-brand>
+      <item-cost>8.99</item-cost>
+      <item-vendor_ID>5T300</item-vendor_ID>
+   </item>
+   <item>   
+      <item-id>P110</item-id>
+      <item-description>Paper Towels - Case</item-description>
+      <item-boh>300</item-boh>
+      <item-brand>Scott</item-brand>
+      <item-cost>28.99</item-cost>
+      <item-vendor_ID>1P100</item-vendor_ID>
+   </item>
+   <item>   
+      <item-id>P211</item-id>
+      <item-description>Paper Napkins - Case</item-description>
+      <item-boh>450</item-boh>
+      <item-brand>Scott</item-brand>
+      <item-cost>38.99</item-cost>
+      <item-vendor_ID>1P100</item-vendor_ID>
+   </item>   
+   <item>   
+      <item-id>T419</item-id>
+      <item-description>Toothpick Holder - Plastic</item-description>
+      <item-boh>31</item-boh>
+      <item-brand>UpTown</item-brand>
+      <item-cost>3.99</item-cost>
+      <item-vendor_ID>1P100</item-vendor_ID>
+   </item>   
+   <item>   
+      <item-id>F811</item-id>
+      <item-description>8-inch Fillet Knife</item-description>
+      <item-boh>9</item-boh>
+      <item-brand>Russel</item-brand>
+      <item-cost>18.99</item-cost>
+      <item-vendor_ID>CH100</item-vendor_ID>
+   </item>   
+ </products>
