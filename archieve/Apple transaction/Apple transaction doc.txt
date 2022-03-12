@@ -1,5 +1,0 @@
-Apple transactions
-    Convert csv file into data
-
-Read text from image using python library add them in to data
-

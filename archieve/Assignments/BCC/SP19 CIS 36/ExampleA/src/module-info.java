@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author yooji
- *
- */
-module Example {
-}
